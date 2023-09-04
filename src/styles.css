@@ -51,12 +51,18 @@ header {
     height: var(--header-height);
     border-bottom: 1px solid var(--color-gray-700);
     color: var(--color-gray-300);
+    align-items: center;
+    padding: 10px;
 }
 
 header .side {
     width: var(--header-height);
     display: grid;
     place-content: center;
+}
+
+.header-github {
+    color: black;
 }
 
 h1 {
