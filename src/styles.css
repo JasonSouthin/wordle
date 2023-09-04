@@ -4,7 +4,7 @@
 html {
     overflow-y: scroll;
 
-    --game-spacing: 32px;
+    --game-spacing: 28px;
     --header-height: 4rem;
 
     --color-success: hsl(150deg 70% 30%);
