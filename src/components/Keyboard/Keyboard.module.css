@@ -5,3 +5,9 @@
     width: 500px;
     margin: auto;
 }
+
+@media only screen and (max-width: 600px) {
+    .keyboard {
+        width: 100%;
+    }
+}
