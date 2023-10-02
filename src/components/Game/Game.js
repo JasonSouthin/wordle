@@ -26,7 +26,7 @@ function Game() {
     const [guesses, setGuesses] = React.useState([]);
     const [answer, setAnswer] = React.useState(sample(WORDS));
     const [keyboardInput, setKeyboardInput] = React.useState([]);
-    const [gameResult, setGameReuslt] =
+    const [gameResult, setGameResult] =
         React.useState(initialGameResult);
 
     function handleSubmitGuess(tentitiveGuess) {
@@ -40,7 +40,7 @@ function Game() {
 
         setGuesses(nextGuesses);
 
-        setGameReuslt({
+        setGameResult({
             amountOfGuesses: nextGuesses.length,
             winner: tentitiveGuess.toUpperCase() === answer,
             endGame:
